@@ -52,14 +52,14 @@ npm install rehype-unwrap-images
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import rehypeUnwrapImages from 'https://esm.sh/rehype-unwrap-images@0'
+import rehypeUnwrapImages from 'https://esm.sh/rehype-unwrap-images@1'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import rehypeUnwrapImages from 'https://esm.sh/rehype-unwrap-images@0?bundle'
+  import rehypeUnwrapImages from 'https://esm.sh/rehype-unwrap-images@1?bundle'
 </script>
 ```
 
@@ -132,7 +132,7 @@ versions of Node.js.
 
 When we cut a new major release, we drop support for unmaintained versions of
 Node.
-This means we try to keep the current release line, `rehype-unwrap-images@0`,
+This means we try to keep the current release line, `rehype-unwrap-images@1`,
 compatible with Node.js 16.
 
 This plugin works with `unified` version 6+ and `rehype` version 1+.
